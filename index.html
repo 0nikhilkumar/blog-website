@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blog Website</title>
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h1>Blogs Web</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            Blogs Web
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>News Feeds</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Jobs</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright-text">
+          Copyright 2022 © Nikhil - Blog Website
+          Developed by Nikhil Kumar
+        </p>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle" style="font-size: 25px;">Hello Everyone!</p>
+
+            <p class="hero-text">
+              These are articles or written pieces that are published on this site. Bloggers can cover a wide range of topics, such as personal experiences, travel, fashion, technology, cooking, or any other subject of interest
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Enter Your Email" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+               Recent News
+              </h2>
+
+              <p class="card-text">
+                Don't miss out on the latest news about technology tips, Upcoming events, guide about to Job...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/event3.jpg" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Event</span>
+
+                      <p class="slider-subtitle">10 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/news2.jpg" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">News</span>
+
+                      <p class="slider-subtitle">65 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/job4.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Jobs</span>
+
+                      <p class="slider-subtitle">55 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/news5.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Tech News</span>
+
+                      <p class="slider-subtitle">125 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/job2.jpg" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Office Jobs</span>
+
+                      <p class="slider-subtitle">70 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">News Feeds</span>
+          </h2>
+
+          <p class="section-text">
+            Latest and highly rated articles
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/news1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#ai</a>
+
+                      <a href="#" class="span hover-2">#technology</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">3 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Artificial intelligence (AI) is also making waves across industries
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-6.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/news2.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#socialmedia</a>
+
+                      <a href="#" class="span hover-2">#localnews</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/news3.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#news</a>
+
+                      <a href="#" class="span hover-2">#socialmedia</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-6.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/news4.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#news</a>
+
+                      <a href="#" class="span hover-2">#localnews</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/news5.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#news</a>
+
+                      <a href="#" class="span hover-2">#socialmedia</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-6.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+      <!-- Upcoming Events -->
+
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Upcoming Events</span>
+          </h2>
+
+          <p class="section-text">
+            Latest and highly rated articles
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/event1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#events</a>
+
+                      <a href="#" class="span hover-2">#realevents</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">3 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/event2.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#events</a>
+
+                      <a href="#" class="span hover-2">#dailyevents</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-2.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/event3.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#events</a>
+
+                      <a href="#" class="span hover-2">#dailyevents</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/event4.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#events</a>
+
+                      <a href="#" class="span hover-2">#dailyevents</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-2.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/event5.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#events</a>
+
+                      <a href="#" class="span hover-2">#dailyevents</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+      <!-- Jobs -->
+
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Jobs</span>
+          </h2>
+
+          <p class="section-text">
+            Latest Jobs | Article
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/job1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#job</a>
+
+                      <a href="#" class="span hover-2">#findjob</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">3 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-2.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/job2.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#jobs</a>
+
+                      <a href="#" class="span hover-2">#findjob</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/job3.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#jobs</a>
+
+                      <a href="#" class="span hover-2">#findjob</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-3.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/job4.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#jobs</a>
+
+                      <a href="#" class="span hover-2">#findjob</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-2.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/job5.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#jobs</a>
+
+                      <a href="#" class="span hover-2">#findjob</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Self-observation is the first step of inner unfolding
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.png" width="48" height="48" loading="lazy" alt="Author"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Author</p>
+
+                        <p class="card-subtitle">DOB</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Recent posts</span>
+            </h2>
+
+            <p class="section-text">
+              Don't miss the latest posts
+            </p>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/job2.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># jobs</a>
+
+                        <a href="#" class="span hover-2"># remotejob</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">5 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/job1.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># technology</a>
+
+                        <a href="#" class="span hover-2"># dailynews</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">6 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/event4.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># event</a>
+
+                        <a href="#" class="span hover-2"># upcoming event</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-4.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># coding</a>
+
+                        <a href="#" class="span hover-2"># developer</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">5 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-5.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Helpful Tips for Working from Home as a Freelancer</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner flapped lynx far that and jeepers giggled far and far
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># research</a>
+
+                        <a href="#" class="span hover-2"># dailyresearch</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">6 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a>
+
+              <a href="#" class="pagination-btn">1</a>
+              <a href="#" class="pagination-btn">2</a>
+              <a href="#" class="pagination-btn">3</a>
+              <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+              <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+            </nav>
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Popular Posts</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-1.jpg" width="64" height="64" loading="lazy"
+                        alt="Creating is a privilege but it’s also a gift" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Creating is a privilege but it’s also a gift</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">Date</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">Date</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-3.jpg" width="64" height="64" loading="lazy"
+                        alt="Every day, in every city and town across the country" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Every day, in every city and town across the country</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">Date</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-4.jpg" width="64" height="64" loading="lazy"
+                        alt="Your voice, your mind, your story, your vision" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Your voice, your mind, your story, your vision</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">Date</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">Date</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Comments</span>
+              </h3>
+
+              <ul class="comment-list">
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-6.png" width="32" height="32" loading="lazy" alt="Jane Cooper">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Dummy Name</p>
+
+                        <time class="card-date" datetime="2022-04-15">Date</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-7.png" width="32" height="32" loading="lazy" alt="Katen Doe">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Dummy Name</p>
+
+                        <time class="card-date" datetime="2022-04-15">Date</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                      roadrunner “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-8.png" width="32" height="32" loading="lazy"
+                          alt="Barbara Cartland">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Dummy Name</p>
+
+                        <time class="card-date" datetime="2022-04-15">Date</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <h1>Blogs</h1>
+            </a>
+
+            <p class="footer-text">
+              When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five When an
+              unknown prnoto sans took a galley and scrambled it to five centurie.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              123 Main Street <br>
+              New Delhi, India 110001
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Business News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Adventures Events</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Travel News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Upcoming Events</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Jobs Hiring</a>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up for the latest posts about News, Events and Jobs Hiring..
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Enter Your Name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Enter Your Email" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Sign Up</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Nikhil Kumar</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
