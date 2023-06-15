@@ -924,7 +924,7 @@
   .copyright-link {
     display: inline-block;
     color: var(--text-carolina-blue);
-    font-style: italic;
+    font-style: var(--weight-bold);
   }
   
   .social-list {
